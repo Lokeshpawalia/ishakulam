@@ -69,8 +69,8 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-primary-foreground/80">
-                  Ishakulam Campus, Village Road,<br />
-                  District, State - 123456
+                  Village Jiwana Guliyan, Baraut-Meerut Road,<br />
+                  Tehsil: Baraut, Distt. Bagpat, U.P.
                 </span>
               </li>
               <li className="flex items-start gap-3">
