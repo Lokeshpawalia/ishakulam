@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -58,12 +59,10 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-heading font-bold text-xl">
-              इ
-            </div>
+            <img src={logo} alt="Ishakulam Logo" className="h-12 w-auto" />
             <div>
               <h1 className="font-heading text-xl font-bold text-foreground">Ishakulam</h1>
-              <p className="text-xs text-muted-foreground">Gurukul of Excellence</p>
+              <p className="text-xs text-muted-foreground">स्वेन क्रतुना सं वदेत</p>
             </div>
           </Link>
 

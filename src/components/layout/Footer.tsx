@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Twitter, Youtube, Instagram, MapPin, Phone, Mail, Clock } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const quickLinks = [
   { name: "About Us", path: "/#about" },
@@ -18,12 +19,10 @@ const Footer = () => {
           {/* About Section */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-heading font-bold text-xl">
-                इ
-              </div>
+              <img src={logo} alt="Ishakulam Logo" className="h-12 w-auto" />
               <div>
                 <h3 className="font-heading text-xl font-bold">Ishakulam</h3>
-                <p className="text-xs text-primary-foreground/70">Gurukul of Excellence</p>
+                <p className="text-xs text-primary-foreground/70">स्वेन क्रतुना सं वदेत</p>
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
