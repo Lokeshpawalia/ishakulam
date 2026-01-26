@@ -48,8 +48,8 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Address</h4>
                     <p className="text-muted-foreground text-sm">
-                      Ishakulam Campus, Village Road,<br />
-                      District, State - 123456, India
+                      Village Jiwana Guliyan, Baraut-Meerut Road,<br />
+                      Tehsil: Baraut, Distt. Bagpat, U.P., India
                     </p>
                   </div>
                 </div>
