@@ -240,12 +240,16 @@ const Admissions = () => {
                   For admission queries, contact us at:
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
-                  <a href="tel:+911234567890" className="text-primary font-medium hover:underline">
-                    +91 12345 67890
+                  <a href="tel:+919760990064" className="text-primary font-medium hover:underline">
+                    +91 97609 90064
                   </a>
                   <span className="text-muted">|</span>
-                  <a href="mailto:admissions@ishakulam.edu" className="text-primary font-medium hover:underline">
-                    admissions@ishakulam.edu
+                  <a href="tel:+917351991555" className="text-primary font-medium hover:underline">
+                    +91 73519 91555
+                  </a>
+                  <span className="text-muted">|</span>
+                  <a href="mailto:ishakulamschool@gmail.com" className="text-primary font-medium hover:underline">
+                    ishakulamschool@gmail.com
                   </a>
                 </div>
               </div>

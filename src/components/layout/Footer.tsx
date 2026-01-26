@@ -74,16 +74,17 @@ const Footer = () => {
                   District, State - 123456
                 </span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-                <a href="tel:+911234567890" className="text-sm text-primary-foreground/80 hover:text-accent">
-                  +91 12345 67890
-                </a>
+              <li className="flex items-start gap-3">
+                <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <div className="text-sm text-primary-foreground/80">
+                  <a href="tel:+919760990064" className="hover:text-accent block">+91 97609 90064</a>
+                  <a href="tel:+917351991555" className="hover:text-accent block">+91 73519 91555</a>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@ishakulam.edu" className="text-sm text-primary-foreground/80 hover:text-accent">
-                  info@ishakulam.edu
+                <a href="mailto:ishakulamschool@gmail.com" className="text-sm text-primary-foreground/80 hover:text-accent">
+                  ishakulamschool@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">

@@ -37,13 +37,13 @@ const Header = () => {
       <div className="bg-primary text-primary-foreground py-2 hidden md:block">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+911234567890" className="flex items-center gap-2 hover:text-accent transition-colors">
+            <a href="tel:+919760990064" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Phone className="w-4 h-4" />
-              +91 12345 67890
+              +91 97609 90064
             </a>
-            <a href="mailto:info@ishakulam.edu" className="flex items-center gap-2 hover:text-accent transition-colors">
+            <a href="mailto:ishakulamschool@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Mail className="w-4 h-4" />
-              info@ishakulam.edu
+              ishakulamschool@gmail.com
             </a>
           </div>
           <div className="flex items-center gap-4">

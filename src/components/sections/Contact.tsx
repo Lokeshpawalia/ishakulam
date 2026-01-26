@@ -61,8 +61,8 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Phone</h4>
                     <p className="text-muted-foreground text-sm">
-                      +91 12345 67890<br />
-                      +91 98765 43210
+                      +91 97609 90064<br />
+                      +91 73519 91555
                     </p>
                   </div>
                 </div>
@@ -74,8 +74,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
                     <p className="text-muted-foreground text-sm">
-                      info@ishakulam.edu<br />
-                      admissions@ishakulam.edu
+                      ishakulamschool@gmail.com
                     </p>
                   </div>
                 </div>
