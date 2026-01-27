@@ -48,9 +48,8 @@ const Header = () => {
             </a>
           </div>
           <div className="flex items-center gap-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Facebook</a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Twitter</a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">YouTube</a>
+            <a href="https://www.facebook.com/share/14QvXs8gypR/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Facebook</a>
+            <a href="https://www.instagram.com/ishakulamschool?utm_source=qr&igsh=eGZ1azdtc3ZmajIx" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Instagram</a>
           </div>
         </div>
       </div>
