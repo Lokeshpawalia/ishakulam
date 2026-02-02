@@ -244,8 +244,8 @@ const Admissions = () => {
                     +91 97609 90064
                   </a>
                   <span className="text-muted">|</span>
-                  <a href="tel:+917351991555" className="text-primary font-medium hover:underline">
-                    +91 73519 91555
+                  <a href="tel:+918171171321" className="text-primary font-medium hover:underline">
+                    +91 81711 71321
                   </a>
                   <span className="text-muted">|</span>
                   <a href="mailto:ishakulamschool@gmail.com" className="text-primary font-medium hover:underline">

@@ -62,7 +62,7 @@ const Contact = () => {
                     <h4 className="font-semibold text-foreground mb-1">Phone</h4>
                     <p className="text-muted-foreground text-sm">
                       +91 97609 90064<br />
-                      +91 73519 91555
+                      +91 81711 71321
                     </p>
                   </div>
                 </div>
