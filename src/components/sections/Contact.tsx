@@ -74,7 +74,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
                     <p className="text-muted-foreground text-sm">
-                      ishakulamschool@gmail.com
+                      Ishakulamgurukul@gmail.com
                     </p>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ const Contact = () => {
             {/* Google Maps Embed */}
             <div className="rounded-2xl overflow-hidden shadow-card h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13940.5!2d77.26!3d29.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c5f5f5f5f5f5f%3A0x5f5f5f5f5f5f5f5f!2sJiwana%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1699900000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484!2d77.2547!3d29.0947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db1f1c1c1c1c1%3A0x1234567890abcdef!2sIshakulam%20Gurukul!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

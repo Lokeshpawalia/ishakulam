@@ -35,10 +35,17 @@ const Principal = () => {
                   student flourishes in a nurturing environment.
                 </p>
 
-                <div className="border-t border-border pt-6">
-                  <h3 className="font-heading text-lg font-bold text-foreground">Acharya Vishwanath Sharma</h3>
-                  <p className="text-primary font-medium">Principal & Founder</p>
-                  <p className="text-sm text-muted-foreground mt-1">M.A., M.Ed., Ph.D. in Education</p>
+                <div className="border-t border-border pt-6 space-y-4">
+                  <div>
+                    <h3 className="font-heading text-lg font-bold text-foreground">Dr. Manish Solanki</h3>
+                    <p className="text-primary font-medium">Founder</p>
+                    <p className="text-sm text-muted-foreground mt-1">PhD in Yogic Science at GVK</p>
+                  </div>
+                  <div>
+                    <h3 className="font-heading text-lg font-bold text-foreground">Acharya Shubham</h3>
+                    <p className="text-primary font-medium">Co-Founder</p>
+                    <p className="text-sm text-muted-foreground mt-1">Master's in Yogic Science</p>
+                  </div>
                 </div>
               </div>
             </div>

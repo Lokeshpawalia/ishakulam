@@ -248,8 +248,8 @@ const Admissions = () => {
                     +91 81711 71321
                   </a>
                   <span className="text-muted">|</span>
-                  <a href="mailto:ishakulamschool@gmail.com" className="text-primary font-medium hover:underline">
-                    ishakulamschool@gmail.com
+                  <a href="mailto:Ishakulamgurukul@gmail.com" className="text-primary font-medium hover:underline">
+                    Ishakulamgurukul@gmail.com
                   </a>
                 </div>
               </div>
