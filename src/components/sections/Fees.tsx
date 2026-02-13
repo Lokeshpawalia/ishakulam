@@ -3,10 +3,13 @@ import { Button } from "@/components/ui/button";
 import { CreditCard, Building, Smartphone, FileText, CheckCircle } from "lucide-react";
 
 const feeStructure = [
-  { class: "Class 1-5", annual: "₹85,000", monthly: "₹7,083" },
-  { class: "Class 6-8", annual: "₹95,000", monthly: "₹7,917" },
-  { class: "Class 9-10", annual: "₹1,10,000", monthly: "₹9,167" },
-  { class: "Class 11-12", annual: "₹1,25,000", monthly: "₹10,417" },
+  { class: "Class V – VII", tuition: "₹60,000", hostel: "₹80,000", total: "₹1,50,000" },
+  { class: "Class VIII – IX", tuition: "₹70,000", hostel: "₹80,000", total: "₹1,60,000" },
+];
+
+const installmentPlan = [
+  { class: "Class V – VII", april: "₹50,000", august: "₹50,000", december: "₹50,000", total: "₹1,50,000" },
+  { class: "Class VIII – IX", april: "₹53,333", august: "₹53,333", december: "₹53,333", total: "₹1,60,000" },
 ];
 
 const paymentMethods = [
@@ -38,48 +41,85 @@ const Fees = () => {
             Transparent <span className="text-gradient">Fee Structure</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            We believe quality education should be accessible. Our fee structure is 
-            comprehensive and includes all residential facilities.
+            Academic Year 2026–2027. Our fee structure is comprehensive and includes all residential facilities.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Fee Table */}
-          <div className="lg:col-span-2 bg-card rounded-2xl shadow-card overflow-hidden">
-            <div className="bg-primary p-6">
-              <h3 className="font-heading text-xl font-bold text-primary-foreground">
-                Annual Fee Structure 2025-26
-              </h3>
-              <p className="text-primary-foreground/80 text-sm mt-1">
-                All fees are inclusive of hostel and meals
-              </p>
-            </div>
-            
-            <div className="overflow-x-auto">
-              <table className="w-full">
-                <thead className="bg-muted">
-                  <tr>
-                    <th className="text-left p-4 font-semibold text-foreground">Class</th>
-                    <th className="text-left p-4 font-semibold text-foreground">Annual Fee</th>
-                    <th className="text-left p-4 font-semibold text-foreground">Monthly Equiv.</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {feeStructure.map((item, index) => (
-                    <tr key={index} className="border-b border-border last:border-0">
-                      <td className="p-4 text-foreground font-medium">{item.class}</td>
-                      <td className="p-4 text-foreground font-bold">{item.annual}</td>
-                      <td className="p-4 text-muted-foreground">{item.monthly}</td>
+          <div className="lg:col-span-2 space-y-6">
+            <div className="bg-card rounded-2xl shadow-card overflow-hidden">
+              <div className="bg-primary p-6">
+                <h3 className="font-heading text-xl font-bold text-primary-foreground">
+                  Annual Fee Structure 2026–27
+                </h3>
+                <p className="text-primary-foreground/80 text-sm mt-1">
+                  Tuition + Hostel fees (per year)
+                </p>
+              </div>
+              
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead className="bg-muted">
+                    <tr>
+                      <th className="text-left p-4 font-semibold text-foreground">Class</th>
+                      <th className="text-left p-4 font-semibold text-foreground">Tuition Fee</th>
+                      <th className="text-left p-4 font-semibold text-foreground">Hostel Fee</th>
+                      <th className="text-left p-4 font-semibold text-foreground">Total</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {feeStructure.map((item, index) => (
+                      <tr key={index} className="border-b border-border last:border-0">
+                        <td className="p-4 text-foreground font-medium">{item.class}</td>
+                        <td className="p-4 text-foreground">{item.tuition}</td>
+                        <td className="p-4 text-foreground">{item.hostel}</td>
+                        <td className="p-4 text-foreground font-bold">{item.total}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="p-6 bg-muted/50">
+                <p className="text-sm text-muted-foreground">
+                  * Admission Fee (One-time): ₹10,000 (Non-refundable)
+                </p>
+              </div>
             </div>
 
-            <div className="p-6 bg-muted/50">
-              <p className="text-sm text-muted-foreground">
-                * One-time admission fee: ₹15,000 | Security deposit: ₹10,000 (refundable)
-              </p>
+            {/* Installment Plan */}
+            <div className="bg-card rounded-2xl shadow-card overflow-hidden">
+              <div className="bg-secondary/20 p-6">
+                <h3 className="font-heading text-xl font-bold text-foreground">
+                  📆 Installment Plan (Every 4 months)
+                </h3>
+              </div>
+              
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead className="bg-muted">
+                    <tr>
+                      <th className="text-left p-4 font-semibold text-foreground">Class</th>
+                      <th className="text-left p-4 font-semibold text-foreground">April</th>
+                      <th className="text-left p-4 font-semibold text-foreground">August</th>
+                      <th className="text-left p-4 font-semibold text-foreground">December</th>
+                      <th className="text-left p-4 font-semibold text-foreground">Total/Year</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {installmentPlan.map((item, index) => (
+                      <tr key={index} className="border-b border-border last:border-0">
+                        <td className="p-4 text-foreground font-medium">{item.class}</td>
+                        <td className="p-4 text-foreground">{item.april}</td>
+                        <td className="p-4 text-foreground">{item.august}</td>
+                        <td className="p-4 text-foreground">{item.december}</td>
+                        <td className="p-4 text-foreground font-bold">{item.total}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 

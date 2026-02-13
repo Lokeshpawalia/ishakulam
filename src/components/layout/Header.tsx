@@ -42,9 +42,9 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               +91 97609 90064
             </a>
-            <a href="mailto:ishakulamschool@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+            <a href="mailto:Ishakulamgurukul@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Mail className="w-4 h-4" />
-              ishakulamschool@gmail.com
+              Ishakulamgurukul@gmail.com
             </a>
           </div>
           <div className="flex items-center gap-4">
