@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Hostel from "./pages/Hostel";
 import Admissions from "./pages/Admissions";
+import ApplicationForm from "./pages/ApplicationForm";
 import NotFound from "./pages/NotFound";
 import WhatsAppButton from "./components/WhatsAppButton";
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/hostel" element={<Hostel />} />
           <Route path="/admissions" element={<Admissions />} />
+          <Route path="/application-form" element={<ApplicationForm />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
