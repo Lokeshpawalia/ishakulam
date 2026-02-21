@@ -34,9 +34,8 @@ const dailyRoutine = [
 ];
 
 const roomTypes = [
-  { type: "Junior Dormitory", capacity: "8-10 Students", ages: "Class 1-5", features: ["Supervised care", "Play area", "Early bedtime"] },
-  { type: "Senior Dormitory", capacity: "6-8 Students", ages: "Class 6-10", features: ["Study desks", "Personal lockers", "Sports access"] },
-  { type: "Higher Secondary", capacity: "4-6 Students", ages: "Class 11-12", features: ["Extended study hours", "Career counseling", "Library access"] },
+  { type: "Junior Dormitory", capacity: "8-10 Students", ages: "Class 5-6", features: ["Supervised care", "Play area", "Early bedtime"] },
+  { type: "Senior Dormitory", capacity: "6-8 Students", ages: "Class 7-9", features: ["Study desks", "Personal lockers", "Sports access"] },
 ];
 
 const Hostel = () => {

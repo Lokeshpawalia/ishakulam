@@ -9,11 +9,9 @@ import {
 import heroCampus from "@/assets/hero-campus.jpg";
 
 const eligibility = [
-  { class: "Class 1", age: "5-6 years", requirement: "Basic readiness test" },
-  { class: "Class 2-5", age: "6-10 years", requirement: "Previous report cards + entrance test" },
-  { class: "Class 6-8", age: "10-13 years", requirement: "Academic test + interview" },
-  { class: "Class 9-10", age: "13-15 years", requirement: "Board-level assessment + interview" },
-  { class: "Class 11-12", age: "15-17 years", requirement: "Stream-specific test + counseling" },
+  { class: "Class 5", age: "9-10 years", requirement: "Previous report cards + entrance test" },
+  { class: "Class 6-7", age: "10-12 years", requirement: "Academic test + interview" },
+  { class: "Class 8-9", age: "12-14 years", requirement: "Academic test + interview" },
 ];
 
 const documents = [
@@ -35,12 +33,12 @@ const admissionSteps = [
 ];
 
 const importantDates = [
-  { event: "Application Opens", date: "January 1, 2026" },
-  { event: "Application Deadline", date: "March 31, 2026" },
-  { event: "Entrance Tests", date: "April 10-15, 2026" },
-  { event: "Results Declaration", date: "April 25, 2026" },
-  { event: "Fee Payment Deadline", date: "May 15, 2026" },
-  { event: "Session Begins", date: "June 1, 2026" },
+  { event: "Application Open", date: "Application Open" },
+  { event: "Application Deadline", date: "March 19, 2026" },
+  { event: "Entrance Test", date: "March 20-22, 2026" },
+  { event: "Results Declaration", date: "March 25, 2026" },
+  { event: "Fee Payment Deadline", date: "March 31, 2026" },
+  { event: "Session Begins", date: "April 1, 2026" },
 ];
 
 const Admissions = () => {
@@ -66,9 +64,11 @@ const Admissions = () => {
               Begin your child's journey towards excellence at Ishakulam. 
               Applications are now open for the upcoming academic session.
             </p>
-            <Button variant="accent" size="xl">
-              <Download className="w-5 h-5 mr-2" />
-              Download Application Form
+            <Button variant="accent" size="xl" asChild>
+              <Link to="/application-form" className="flex items-center gap-2">
+                <Download className="w-5 h-5" />
+                Download Application Form
+              </Link>
             </Button>
           </div>
         </section>
@@ -222,7 +222,9 @@ const Admissions = () => {
                   <Download className="w-10 h-10 text-primary mx-auto mb-4" />
                   <h3 className="font-heading font-bold text-foreground mb-2">Online Application</h3>
                   <p className="text-muted-foreground text-sm mb-4">Download and fill the form</p>
-                  <Button variant="outline" className="w-full">Download Form (PDF)</Button>
+                  <Button variant="outline" className="w-full" asChild>
+                    <Link to="/application-form">Download Form (PDF)</Link>
+                  </Button>
                 </div>
                 
                 <div className="bg-muted/50 rounded-xl p-6 text-center">
