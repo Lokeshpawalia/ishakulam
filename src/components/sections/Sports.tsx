@@ -10,7 +10,7 @@ const achievements = [
 
 const sports = [
   "Cricket", "Football", "Kabaddi", "Kho-Kho", "Athletics", 
-  "Yoga", "Archery", "Chess", "Badminton", "Volleyball"
+  "Yoga", "Chess", "Badminton", "Volleyball"
 ];
 
 const Sports = () => {
@@ -82,12 +82,6 @@ const Sports = () => {
               />
             </div>
             
-            {/* Floating Achievement */}
-            <div className="absolute -bottom-6 -left-6 bg-secondary text-secondary-foreground rounded-xl p-4 shadow-elevated hidden md:block">
-              <Trophy className="w-8 h-8 mb-2" />
-              <div className="font-heading text-xl font-bold">State Champions</div>
-              <div className="text-sm opacity-90">Cricket 2025</div>
-            </div>
           </div>
         </div>
       </div>

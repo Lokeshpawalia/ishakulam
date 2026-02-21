@@ -37,7 +37,7 @@ const Academics = () => {
             {/* Floating Card */}
             <div className="absolute -top-6 -right-6 bg-primary text-primary-foreground rounded-xl p-4 shadow-elevated hidden md:block">
               <div className="font-heading text-3xl font-bold">Class</div>
-              <div className="text-sm opacity-90">1st to 12th</div>
+              <div className="text-sm opacity-90">5th to 9th</div>
             </div>
           </div>
 

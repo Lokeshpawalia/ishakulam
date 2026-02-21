@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 import { CreditCard, Building, Smartphone, FileText, CheckCircle } from "lucide-react";
 
 const feeStructure = [
-  { class: "Class V – VII", tuition: "₹60,000", hostel: "₹80,000", total: "₹1,50,000" },
-  { class: "Class VIII – IX", tuition: "₹70,000", hostel: "₹80,000", total: "₹1,60,000" },
+  { class: "Class V – VII", tuition: "₹60,000", hostel: "₹80,000", total: "₹1,40,000" },
+  { class: "Class VIII – IX", tuition: "₹70,000", hostel: "₹80,000", total: "₹1,50,000" },
 ];
 
 const installmentPlan = [
-  { class: "Class V – VII", april: "₹50,000", august: "₹50,000", december: "₹50,000", total: "₹1,50,000" },
-  { class: "Class VIII – IX", april: "₹53,333", august: "₹53,333", december: "₹53,333", total: "₹1,60,000" },
+  { class: "Class V – VII", april: "₹46,667", august: "₹46,667", december: "₹46,666", total: "₹1,40,000" },
+  { class: "Class VIII – IX", april: "₹50,000", august: "₹50,000", december: "₹50,000", total: "₹1,50,000" },
 ];
 
 const paymentMethods = [
